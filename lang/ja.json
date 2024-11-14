@@ -1,0 +1,41 @@
+{
+  "TYPES.Item.useful-alchemistry-wfrp4.recipe": "錬金術のレシピ",
+
+  "ALCHEMY.Skill": "錬金術",
+
+  "ALCHEMY.SuccessMessage": "チェックに成功しました！",
+  "ALCHEMY.FailMessage": "チェックに失敗しました！",
+  "ALCHEMY.RecieveItem": "アイテムを受け取りました",
+  "ALCHEMY.NotReceiveItem": "アイテムは受け取れませんでしたが、正しいレシピだと感じます。スキルが足りないのでしょうか？",
+
+  "ALCHEMY_CHAT.SpeakerAlias": "錬金術",
+  "ALCHEMY_TABLE.Header": "錬金術のテーブル",
+  "ALCHEMY_TABLE.IngredientsListHeader": "材料",
+  "ALCHEMY_TABLE.IngredientsListPlaceholder": "材料を追加...",
+  "ALCHEMY_TABLE.ProcessButton": "処理",
+
+  "ALCHEMY_TABLE.Warning_OnlyItems": "アイテムのみが錬金術のテーブルに追加できます。",
+  "ALCHEMY_TABLE.Warning_OnlyInventoryItems": "キャラクターのインベントリからアイテムのみが錬金術のテーブルに追加できます。",
+  "ALCHEMY_TABLE.Warning_NotEnoughItems": "キャラクターのインベントリに、錬金術のテーブルに追加するためのアイテムが足りません。",
+  "ALCHEMY_TABLE.Error_BadRecipe": "これらの材料では有効な組み合わせが作成できないようです。他のものを試してみてください。",
+
+  "ALCHEMY_RECIPE.ModifierLabel": "難易度",
+  "ALCHEMY_RECIPE.ModifierPlaceholder": "修正",
+
+  "ALCHEMY_RECIPE.SuccessResultHeader": "成功時の結果",
+  "ALCHEMY_RECIPE.SuccessResultPlaceholder": "成功した結果のためにアイテムを追加...",
+
+  "ALCHEMY_RECIPE.FailResultHeader": "失敗時の結果",
+  "ALCHEMY_RECIPE.FailResultPlaceholder": "失敗した結果のためにアイテムを追加...",
+
+  "ALCHEMY_RECIPE.IngredientsHeader": "材料",
+  "ALCHEMY_RECIPE.IngredientsPlaceholder": "材料を追加...",
+
+  "ALCHEMY_RECIPE.Warning_OnlyItems": "レシピにはアイテムのみが追加できます。",
+
+  "ALCHEMY_UTILS.SelectCharacterHeader": "キャラクターを選択",
+  "ALCHEMY_UTILS.SelectCharacterSubmitButton": "選択",
+  "ALCHEMY_UTILS.SelectCharacterCancelButton": "キャンセル",
+  "ALCHEMY_UTILS.NoAvailableCharacter": "選択できるキャラクターがいません。",
+  "ALCHEMY_UTILS.NoCharacterSelected": "キャラクターが選択されていません。"
+}

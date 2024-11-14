@@ -1,0 +1,82 @@
+{
+  "id": "useful-alchemistry-wfrp4",
+  "title": "Useful Alchemistry WFRP4",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "The \"Useful Alchemistry\" module for the 'Warhammer Fantasy Roleplay 4th Edition' system allows you to create alchemical recipes and use mortars and pestles to mix various ingredients, experimenting with their combinations to achieve unique results. This module adds the possibilities for crafting, adding depth and interactivity to your gaming sessions.",
+  "authors": [
+    {
+      "name": "apotory",
+      "email": "alexey.potory@gmail.com",
+      "url": "https://github.com/alexey-potory",
+      "flags": {}
+    },
+    {
+      "name": "dwarfozavr",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/alexey-potory/useful-alchemistry-wfrp4.git",
+  "packs": [
+    {
+      "name": "useful-alchemistry",
+      "label": "Useful Alchemistry",
+      "path": "packs/useful-alchemistry",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "styles": [
+    "styles/styles.css"
+  ],
+  "esmodules": [
+    "init.js",
+    "scripts/alchemy-recipe-model.js",
+    "scripts/alchemy-recipe-sheet.js",
+    "scripts/alchemy-table-window.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Russian",
+      "path": "lang/ru.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "de",
+      "name": "German",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "chn",
+      "name": "Chinese",
+      "path": "lang/chn.json"
+    },
+    {
+      "lang": "ja",
+      "name": "Japanese",
+      "path": "lang/ja.json"
+    }
+  ],
+  "documentTypes": {
+    "Item": {
+      "recipe": {}
+    }
+  }
+}

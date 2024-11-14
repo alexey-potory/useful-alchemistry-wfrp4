@@ -1,0 +1,41 @@
+{
+  "TYPES.Item.useful-alchemistry-wfrp4.recipe": "Alchemy Recipe",
+
+  "ALCHEMY.Skill": "Alchemy",
+
+  "ALCHEMY.SuccessMessage": "You have successfully completed the check!",
+  "ALCHEMY.FailMessage": "You failed the check!",
+  "ALCHEMY.RecieveItem": "You received an item",
+  "ALCHEMY.NotReceiveItem": "You did not receive an item, but you feel this is the correct recipe. Perhaps you lack the necessary skills?",
+
+  "ALCHEMY_CHAT.SpeakerAlias": "Alchemy",
+  "ALCHEMY_TABLE.Header": "Alchemy Table",
+  "ALCHEMY_TABLE.IngredientsListHeader": "Ingredients",
+  "ALCHEMY_TABLE.IngredientsListPlaceholder": "Add ingredients...",
+  "ALCHEMY_TABLE.ProcessButton": "Process",
+
+  "ALCHEMY_TABLE.Warning_OnlyItems": "Only items can be added to the alchemy table.",
+  "ALCHEMY_TABLE.Warning_OnlyInventoryItems": "Only items from the character's inventory can be added to the alchemy table.",
+  "ALCHEMY_TABLE.Warning_NotEnoughItems": "Not enough items in the character's inventory to add to the crafting table.",
+  "ALCHEMY_TABLE.Error_BadRecipe": "It seems these ingredients cannot create a meaningful combination. Maybe try something else?",
+
+  "ALCHEMY_RECIPE.ModifierLabel": "Diff.Mod.",
+  "ALCHEMY_RECIPE.ModifierPlaceholder": "Modifier",
+
+  "ALCHEMY_RECIPE.SuccessResultHeader": "Success Result",
+  "ALCHEMY_RECIPE.SuccessResultPlaceholder": "Add an item for a successful result...",
+
+  "ALCHEMY_RECIPE.FailResultHeader": "Failure Result",
+  "ALCHEMY_RECIPE.FailResultPlaceholder": "Add an item for a failure result...",
+
+  "ALCHEMY_RECIPE.IngredientsHeader": "Ingredients",
+  "ALCHEMY_RECIPE.IngredientsPlaceholder": "Add ingredients...",
+
+  "ALCHEMY_RECIPE.Warning_OnlyItems": "Only items can be added to the recipe.",
+
+  "ALCHEMY_UTILS.SelectCharacterHeader": "Select Character",
+  "ALCHEMY_UTILS.SelectCharacterSubmitButton": "Select",
+  "ALCHEMY_UTILS.SelectCharacterCancelButton": "Cancel",
+  "ALCHEMY_UTILS.NoAvailableCharacter": "No available characters to select.",
+  "ALCHEMY_UTILS.NoCharacterSelected": "No character selected."
+}

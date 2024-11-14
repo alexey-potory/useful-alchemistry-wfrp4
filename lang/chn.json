@@ -1,0 +1,41 @@
+{
+  "TYPES.Item.useful-alchemistry-wfrp4.recipe": "炼金术配方",
+
+  "ALCHEMY.Skill": "炼金术",
+
+  "ALCHEMY.SuccessMessage": "您成功完成了检查！",
+  "ALCHEMY.FailMessage": "您未通过检查！",
+  "ALCHEMY.RecieveItem": "您获得了物品",
+  "ALCHEMY.NotReceiveItem": "您没有获得物品，但您觉得这是正确的配方。也许您的技能不足？",
+
+  "ALCHEMY_CHAT.SpeakerAlias": "炼金术",
+  "ALCHEMY_TABLE.Header": "炼金术桌",
+  "ALCHEMY_TABLE.IngredientsListHeader": "材料",
+  "ALCHEMY_TABLE.IngredientsListPlaceholder": "添加材料...",
+  "ALCHEMY_TABLE.ProcessButton": "处理",
+
+  "ALCHEMY_TABLE.Warning_OnlyItems": "只有物品可以添加到炼金术桌上。",
+  "ALCHEMY_TABLE.Warning_OnlyInventoryItems": "只有角色背包中的物品可以添加到炼金术桌上。",
+  "ALCHEMY_TABLE.Warning_NotEnoughItems": "角色背包中没有足够的物品来添加到炼金术桌。",
+  "ALCHEMY_TABLE.Error_BadRecipe": "这些材料似乎无法形成有效的组合。也许您可以尝试其他的配方？",
+
+  "ALCHEMY_RECIPE.ModifierLabel": "难度",
+  "ALCHEMY_RECIPE.ModifierPlaceholder": "修正",
+
+  "ALCHEMY_RECIPE.SuccessResultHeader": "成功时的结果",
+  "ALCHEMY_RECIPE.SuccessResultPlaceholder": "为成功结果添加物品...",
+
+  "ALCHEMY_RECIPE.FailResultHeader": "失败时的结果",
+  "ALCHEMY_RECIPE.FailResultPlaceholder": "为失败结果添加物品...",
+
+  "ALCHEMY_RECIPE.IngredientsHeader": "材料",
+  "ALCHEMY_RECIPE.IngredientsPlaceholder": "添加材料...",
+
+  "ALCHEMY_RECIPE.Warning_OnlyItems": "配方中只能添加物品。",
+
+  "ALCHEMY_UTILS.SelectCharacterHeader": "选择角色",
+  "ALCHEMY_UTILS.SelectCharacterSubmitButton": "选择",
+  "ALCHEMY_UTILS.SelectCharacterCancelButton": "取消",
+  "ALCHEMY_UTILS.NoAvailableCharacter": "没有可选择的角色。",
+  "ALCHEMY_UTILS.NoCharacterSelected": "未选择角色。"
+}

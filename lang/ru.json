@@ -1,0 +1,41 @@
+{
+  "TYPES.Item.useful-alchemistry-wfrp4.recipe": "Алхимический рецепт",
+
+  "ALCHEMY.Skill": "Алхимия",
+
+  "ALCHEMY.SuccessMessage": "Вы успешно завершили проверку!",
+  "ALCHEMY.FailMessage": "Вы не прошли проверку!",
+  "ALCHEMY.RecieveItem": "Вы получили предмет",
+  "ALCHEMY.NotReceiveItem": "Вы не получили предмет, но чувствуете, что это правильный рецепт. Возможно, вам не хватает навыков?",
+
+  "ALCHEMY_CHAT.SpeakerAlias": "Алхимия",
+  "ALCHEMY_TABLE.Header": "Алхимический Стол",
+  "ALCHEMY_TABLE.IngredientsListHeader": "Ингредиенты",
+  "ALCHEMY_TABLE.IngredientsListPlaceholder": "Добавьте ингредиенты...",
+  "ALCHEMY_TABLE.ProcessButton": "Обработать",
+
+  "ALCHEMY_TABLE.Warning_OnlyItems": "Только предметы могут быть добавлены на алхимический стол.",
+  "ALCHEMY_TABLE.Warning_OnlyInventoryItems": "Только предметы из инвентаря персонажа могут быть добавлены на алхимический стол.",
+  "ALCHEMY_TABLE.Warning_NotEnoughItems": "Недостаточно предметов в инвентаре персонажа для добавления на стол для создания.",
+  "ALCHEMY_TABLE.Error_BadRecipe": "Похоже, эти ингредиенты не могут создать значимую комбинацию. Возможно, попробуйте что-то другое?",
+
+  "ALCHEMY_RECIPE.ModifierLabel": "Мод.Сл.",
+  "ALCHEMY_RECIPE.ModifierPlaceholder": "Модификатор",
+
+  "ALCHEMY_RECIPE.SuccessResultHeader": "Результат при успехе",
+  "ALCHEMY_RECIPE.SuccessResultPlaceholder": "Добавьте предмет для успешного результата...",
+
+  "ALCHEMY_RECIPE.FailResultHeader": "Результат при неудаче",
+  "ALCHEMY_RECIPE.FailResultPlaceholder": "Добавьте предмет для результата неудачи...",
+
+  "ALCHEMY_RECIPE.IngredientsHeader": "Ингредиенты",
+  "ALCHEMY_RECIPE.IngredientsPlaceholder": "Добавьте ингредиенты...",
+
+  "ALCHEMY_RECIPE.Warning_OnlyItems": "Только предметы могут быть добавлены в рецепт.",
+
+  "ALCHEMY_UTILS.SelectCharacterHeader": "Выберите персонажа",
+  "ALCHEMY_UTILS.SelectCharacterSubmitButton": "Выбрать",
+  "ALCHEMY_UTILS.SelectCharacterCancelButton": "Отмена",
+  "ALCHEMY_UTILS.NoAvailableCharacter": "Нет доступных персонажей для выбора.",
+  "ALCHEMY_UTILS.NoCharacterSelected": "Персонаж не выбран."
+}

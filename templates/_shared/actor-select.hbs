@@ -1,0 +1,7 @@
+<div class="form-group actor-selector">
+    <select style="width: 100%" id="actor-select">
+        {{#each actors as |actor a|}}
+            <option value="{{actor.id}}">{{actor.name}}</option>
+        {{/each}}
+    </select>
+</div>

@@ -1,0 +1,11 @@
+<form style="display: flex; flex-direction: column" class="wfrp4e item-sheet {{cssClass}}" autocomplete="off">
+    {{> modules/useful-alchemistry-wfrp4/templates/recipe/alchemy-recipe-header.hbs category="TYPES.Item.useful-alchemistry-wfrp4.recipe" }}
+
+    <div style="flex:1; display: flex; overflow: auto; flex-direction: column; margin-top: -45px;">
+        <section style="height: auto" class="content">
+            <div class="inventory save-scroll active">
+                {{> modules/useful-alchemistry-wfrp4/templates/recipe/alchemy-recipe-list.hbs}}
+            </div>
+        </section>
+    </div>
+</form>

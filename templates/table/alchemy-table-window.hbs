@@ -1,0 +1,19 @@
+<div style="height: 100%; padding: 10px" class="content alchemy-table-content">
+    <div class="inventory-header item {{@key}}">
+        <span class="name">{{localize "ALCHEMY_TABLE.IngredientsListHeader"}}</span>
+    </div>
+    <div style="flex:1; display: flex; overflow: auto; flex-direction: column;" class="inventory save-scroll active">
+        <div>
+        <ol style="height: auto; scrollbar-width: none;" id="ingredients-list" class="inventory-list">
+            {{#unless items.length}}
+                <p style="color: gray; font-style: italic">{{localize "ALCHEMY_TABLE.IngredientsListPlaceholder"}}</p>
+            {{/unless}}
+            {{> modules/useful-alchemistry-wfrp4/templates/_shared/items-list.hbs items=items}}
+        </ol>
+        </div>
+    </div>
+
+    {{#if items.length}}
+    <button style="margin-top: 15px" id="alchemy-submit" class="trigger-script">{{localize "ALCHEMY_TABLE.ProcessButton"}}</button>
+    {{/if}}
+</div>

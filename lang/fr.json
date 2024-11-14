@@ -1,0 +1,41 @@
+{
+  "TYPES.Item.useful-alchemistry-wfrp4.recipe": "Recette alchimique",
+
+  "ALCHEMY.Skill": "Alchimie",
+
+  "ALCHEMY.SuccessMessage": "Vous avez réussi l'épreuve !",
+  "ALCHEMY.FailMessage": "Vous avez échoué à l'épreuve !",
+  "ALCHEMY.RecieveItem": "Vous avez reçu un objet",
+  "ALCHEMY.NotReceiveItem": "Vous n'avez pas reçu d'objet, mais vous sentez que c'est la bonne recette. Peut-être qu'il vous manque des compétences ?",
+
+  "ALCHEMY_CHAT.SpeakerAlias": "Alchimie",
+  "ALCHEMY_TABLE.Header": "Table d'Alchimie",
+  "ALCHEMY_TABLE.IngredientsListHeader": "Ingrédients",
+  "ALCHEMY_TABLE.IngredientsListPlaceholder": "Ajoutez des ingrédients...",
+  "ALCHEMY_TABLE.ProcessButton": "Traiter",
+
+  "ALCHEMY_TABLE.Warning_OnlyItems": "Seuls les objets peuvent être ajoutés à la table d'alchimie.",
+  "ALCHEMY_TABLE.Warning_OnlyInventoryItems": "Seuls les objets de l'inventaire du personnage peuvent être ajoutés à la table d'alchimie.",
+  "ALCHEMY_TABLE.Warning_NotEnoughItems": "Il n'y a pas assez d'objets dans l'inventaire du personnage pour être ajoutés à la table de création.",
+  "ALCHEMY_TABLE.Error_BadRecipe": "Il semble que ces ingrédients ne forment pas une combinaison valable. Essayez peut-être autre chose ?",
+
+  "ALCHEMY_RECIPE.ModifierLabel": "Mod.Diffic.",
+  "ALCHEMY_RECIPE.ModifierPlaceholder": "Modificateur",
+
+  "ALCHEMY_RECIPE.SuccessResultHeader": "Résultat en cas de succès",
+  "ALCHEMY_RECIPE.SuccessResultPlaceholder": "Ajoutez un objet pour le résultat en cas de succès...",
+
+  "ALCHEMY_RECIPE.FailResultHeader": "Résultat en cas d'échec",
+  "ALCHEMY_RECIPE.FailResultPlaceholder": "Ajoutez un objet pour le résultat en cas d'échec...",
+
+  "ALCHEMY_RECIPE.IngredientsHeader": "Ingrédients",
+  "ALCHEMY_RECIPE.IngredientsPlaceholder": "Ajoutez des ingrédients...",
+
+  "ALCHEMY_RECIPE.Warning_OnlyItems": "Seuls les objets peuvent être ajoutés à la recette.",
+
+  "ALCHEMY_UTILS.SelectCharacterHeader": "Choisissez un personnage",
+  "ALCHEMY_UTILS.SelectCharacterSubmitButton": "Choisir",
+  "ALCHEMY_UTILS.SelectCharacterCancelButton": "Annuler",
+  "ALCHEMY_UTILS.NoAvailableCharacter": "Aucun personnage disponible à sélectionner.",
+  "ALCHEMY_UTILS.NoCharacterSelected": "Aucun personnage sélectionné."
+}

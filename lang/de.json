@@ -1,0 +1,41 @@
+{
+  "TYPES.Item.useful-alchemistry-wfrp4.recipe": "Alchemistische Rezept",
+
+  "ALCHEMY.Skill": "Alchemie",
+
+  "ALCHEMY.SuccessMessage": "Sie haben die Prüfung erfolgreich abgeschlossen!",
+  "ALCHEMY.FailMessage": "Sie haben die Prüfung nicht bestanden!",
+  "ALCHEMY.RecieveItem": "Sie haben einen Gegenstand erhalten",
+  "ALCHEMY.NotReceiveItem": "Sie haben keinen Gegenstand erhalten, aber Sie haben das Gefühl, dass es das richtige Rezept ist. Vielleicht fehlen Ihnen die Fähigkeiten?",
+
+  "ALCHEMY_CHAT.SpeakerAlias": "Alchemie",
+  "ALCHEMY_TABLE.Header": "Alchemietisch",
+  "ALCHEMY_TABLE.IngredientsListHeader": "Zutaten",
+  "ALCHEMY_TABLE.IngredientsListPlaceholder": "Fügen Sie Zutaten hinzu...",
+  "ALCHEMY_TABLE.ProcessButton": "Verarbeiten",
+
+  "ALCHEMY_TABLE.Warning_OnlyItems": "Nur Gegenstände können auf den Alchemietisch hinzugefügt werden.",
+  "ALCHEMY_TABLE.Warning_OnlyInventoryItems": "Nur Gegenstände aus dem Inventar des Charakters können auf den Alchemietisch hinzugefügt werden.",
+  "ALCHEMY_TABLE.Warning_NotEnoughItems": "Es gibt nicht genug Gegenstände im Inventar des Charakters, um sie auf den Tisch zu legen.",
+  "ALCHEMY_TABLE.Error_BadRecipe": "Es scheint, dass diese Zutaten keine sinnvolle Kombination ergeben. Versuchen Sie vielleicht etwas anderes?",
+
+  "ALCHEMY_RECIPE.ModifierLabel": "Schwierigkeitsgrad",
+  "ALCHEMY_RECIPE.ModifierPlaceholder": "Modifikator",
+
+  "ALCHEMY_RECIPE.SuccessResultHeader": "Ergebnis bei Erfolg",
+  "ALCHEMY_RECIPE.SuccessResultPlaceholder": "Fügen Sie einen Gegenstand für das Erfolgsergebnis hinzu...",
+
+  "ALCHEMY_RECIPE.FailResultHeader": "Ergebnis bei Misserfolg",
+  "ALCHEMY_RECIPE.FailResultPlaceholder": "Fügen Sie einen Gegenstand für das Missergebnis hinzu...",
+
+  "ALCHEMY_RECIPE.IngredientsHeader": "Zutaten",
+  "ALCHEMY_RECIPE.IngredientsPlaceholder": "Fügen Sie Zutaten hinzu...",
+
+  "ALCHEMY_RECIPE.Warning_OnlyItems": "Nur Gegenstände können in das Rezept aufgenommen werden.",
+
+  "ALCHEMY_UTILS.SelectCharacterHeader": "Wählen Sie einen Charakter",
+  "ALCHEMY_UTILS.SelectCharacterSubmitButton": "Auswählen",
+  "ALCHEMY_UTILS.SelectCharacterCancelButton": "Abbrechen",
+  "ALCHEMY_UTILS.NoAvailableCharacter": "Es gibt keine verfügbaren Charaktere zur Auswahl.",
+  "ALCHEMY_UTILS.NoCharacterSelected": "Kein Charakter ausgewählt."
+}

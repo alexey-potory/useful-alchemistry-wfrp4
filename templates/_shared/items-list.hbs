@@ -1,0 +1,14 @@
+{{#each items as |item i|}}
+    <li class="item" data-index="{{i}}" data-id="{{item.id}}" data-item-id="{{item.id}}">
+        <div class="content">
+            <div class="item-name item-dropdown">
+            <div class="image" style="background-image: url({{item.img}})"></div>
+            <a class="name">{{item.name}}</a>
+        </div>
+            <div class="item-controls">
+            <a class="item-control ingredient-delete" style="font-size: 1.5em" title="{{localize 'SHEET.DeleteItem'}}"><i
+                    class="fas fa-trash"></i></a>
+        </div>
+        </div>
+    </li>
+{{/each}}

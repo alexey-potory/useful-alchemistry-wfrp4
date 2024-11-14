@@ -1,0 +1,61 @@
+<div class="inventory-header item {{@key}}">
+    <span class="name">{{localize "ALCHEMY_RECIPE.SuccessResultHeader"}}</span>
+</div>
+<ol style="min-height: 35px; overflow: hidden;" id="success-result-container" class="inventory-list {{@key}}">
+    {{#if result.success}}
+        <div class="item" data-id="{{result.success.id}}" data-item-id="{{result.success.id}}">
+            <div class="content">
+                <div class="item-name item-dropdown">
+                    <div class="image" style="background-image: url({{result.success.img}})"></div>
+                    <a class="name">{{result.success.name}}</a>
+                </div>
+                <div class="item-controls">
+                    <a id="success-result-delete" class="item-control" style="font-size: 1.5em"
+                       title="{{localize 'SHEET.DeleteItem'}}"><i
+                            class="fas fa-trash"></i></a>
+                </div>
+            </div>
+        </div>
+    {{else}}
+        <p style="color: gray; font-style: italic">{{localize "ALCHEMY_RECIPE.SuccessResultPlaceholder"}}</p>
+    {{/if}}
+</ol>
+
+<div style="min-height: 10px"></div>
+
+<div class="inventory-header item {{@key}}">
+    <span class="name">{{localize "ALCHEMY_RECIPE.FailResultHeader"}}</span>
+</div>
+<ol style="min-height: 35px; overflow: hidden;" id="fail-result-container" class="inventory-list {{@key}}">
+    {{#if result.fail}}
+        <div class="item" data-id="{{result.fail.id}}" data-item-id="{{result.fail.id}}">
+            <div class="content">
+                <div class="item-name item-dropdown">
+                    <div class="image" style="background-image: url({{result.fail.img}})"></div>
+                    <a class="name">{{result.fail.name}}</a>
+                </div>
+                <div class="item-controls">
+                    <a id="fail-result-delete" class="item-control" style="font-size: 1.5em"
+                       title="{{localize 'SHEET.DeleteItem'}}"><i
+                            class="fas fa-trash"></i></a>
+                </div>
+            </div>
+        </div>
+    {{else}}
+        <p style="color: gray; font-style: italic">{{localize "ALCHEMY_RECIPE.FailResultPlaceholder"}}</p>
+    {{/if}}
+</ol>
+
+<div style="min-height: 10px"></div>
+
+{{#each items.inventory.categories as |section sid|}}
+    <div class="inventory-header item {{@key}}">
+        <span class="name">{{localize "ALCHEMY_RECIPE.IngredientsHeader"}}</span>
+    </div>
+    <ol style="min-height: 35px" id="ingredients-list" class="inventory-list {{@key}}">
+        {{#unless section.items.length}}
+            <p style="color: gray; font-style: italic">{{localize "ALCHEMY_RECIPE.IngredientsPlaceholder"}}</p>
+        {{/unless}}
+        {{> modules/useful-alchemistry-wfrp4/templates/_shared/items-list.hbs items=section.items}}
+    </ol>
+{{/each}}
