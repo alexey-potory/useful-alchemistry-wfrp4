@@ -36,7 +36,7 @@
     "styles/styles.css"
   ],
   "esmodules": [
-    "init.js",
+    "scripts/init.js",
     "scripts/alchemy-recipe-model.js",
     "scripts/alchemy-recipe-sheet.js",
     "scripts/alchemy-table-window.js"
