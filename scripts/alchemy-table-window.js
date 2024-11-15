@@ -119,8 +119,11 @@ export class AlchemyTableWindow extends Application {
             let item = actor.items.find(i => i.name === itemToCreate.name);
 
             if (item === undefined) {
+                const obj = itemToCreate.toObject();
+                obj.system.quantity.value = 1;
+
                 const doc = await actor.createEmbeddedDocuments("Item", [itemToCreate.toObject()]);
-                item = await doc[0].update({"system.quantity.value": 1});
+                item = doc[0];
             } else {
                 item = await item.update({"system.quantity.value": item.system.quantity.value + 1});
             }
