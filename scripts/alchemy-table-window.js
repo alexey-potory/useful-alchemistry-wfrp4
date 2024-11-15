@@ -146,7 +146,13 @@ export class AlchemyTableWindow extends Application {
     }
 
     async _performRoll(test) {
-        await test.roll();
+        try {
+            await test.roll();
+        } catch (error) {
+            if (error.message === "No Active GM present") {
+                // ignore (why it's even throwing an Error ffs?)
+            }
+        }
         return test.succeeded;
     }
 
