@@ -1,6 +1,6 @@
-import {AlchemyRecipeModel} from "./scripts/alchemy-recipe-model.js";
-import {AlchemyRecipeSheet} from "./scripts/alchemy-recipe-sheet.js";
-import {AlchemyTableWindow} from "./scripts/alchemy-table-window.js";
+import {AlchemyRecipeModel} from "./alchemy-recipe-model.js";
+import {AlchemyRecipeSheet} from "./alchemy-recipe-sheet.js";
+import {AlchemyTableWindow} from "./alchemy-table-window.js";
 
 Hooks.on("init", () => {
     Object.assign(CONFIG.Item.dataModels, {
